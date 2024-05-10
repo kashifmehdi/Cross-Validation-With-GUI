@@ -84,11 +84,9 @@ Once the project is set up, you can run the main script to start the Cross-Valid
 ## Demo 🎬
 <div align="center">
 
-   ![assets/Screenshot 1.png](https://github.com/kashifmehdi/Air-Canva/blob/8d9ffb4995101ccf1808b976b5b4c005ff5011ad/assets/Screenshot%201.png)
-   <p>Color Palette Screenshot </p>
-   
-   ![assets/Screenshot 2.png](https://github.com/kashifmehdi/Air-Canva/blob/8d9ffb4995101ccf1808b976b5b4c005ff5011ad/assets/Screenshot%202.png)
-   <p>Canvas in action with diffrent brush sizes </p>
+   ![assets/GUI output.png](https://github.com/kashifmehdi/Cross-Validation-With-GUI/blob/94d62059c3e99ea9a248204816de733e690e36c1/assets/GUI%20Output.png)
+   <p>Screenshot of Main Window </p>
+  
 </div>
 
 
