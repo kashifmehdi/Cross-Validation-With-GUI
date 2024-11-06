@@ -20,7 +20,7 @@ This is an enhanced machine learning classification application that demonstrate
 ## 🌟 Features
 
 - Interactive web interface using Streamlit
-- Support for multiple classic datasets (Iris, Wine, Breast Cancer)
+- Support for multiple datasets (Examples used: Iris, Wine, Breast Cancer, Can be changed)
 - Multiple classification algorithms:
   - K-Nearest Neighbors
   - Gaussian Mixture Model
