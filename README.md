@@ -13,85 +13,130 @@
 
 </div>
 
-<h1 align="center"> Cross-Validation With GUI</h1>
+<h1 align="center"><b>Machine Learning Classifier Application</b></h1>
 
-## Table of Contents
-* [General Info](#general-info)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Demo](#demo)
-* [Contributing](#contributing)
+This is an enhanced machine learning classification application that demonstrates various classification algorithms on classic datasets. The application provides an interactive web interface built with Streamlit, making it easy to experiment with different classifiers and datasets.
 
+## 🌟 Features
 
-## General Info ℹ️
-The "Cross Validation with GUI" project aims to develop a user-friendly graphical interface for conducting cross-validation, a fundamental technique in machine learning model evaluation. Cross-validation is crucial for assessing a model's performance and generalizability by partitioning the dataset into multiple subsets and iteratively training and testing the model.
+- Interactive web interface using Streamlit
+- Support for multiple classic datasets (Iris, Wine, Breast Cancer)
+- Multiple classification algorithms:
+  - K-Nearest Neighbors
+  - Gaussian Mixture Model
+  - Support Vector Classification
+- Advanced visualization using Plotly
+- Cross-validation scoring
+- Confusion matrix visualization
+- BIC score analysis for model selection
+- Standardized data preprocessing
+- Comprehensive performance metrics
 
-## Technologies Used 💻
-This project is created using:
-- **Python** (`Python`) : Any version above 3.8
-- **numpy** (`numpy`): For numerical operations and array manipulations.
-- **pandas** (`pandas`): For data manipulation and analysis using DataFrame structures.
-- **matplotlib** (`matplotlib`): For data visualization, including plotting graphs and charts.
-- **scikit-learn** (`sklearn`): For machine learning algorithms and tools.
-  - `datasets`: Provides built-in datasets for experimentation.
-  - `model_selection`: Includes functions for model selection and evaluation, such as cross-validation.
-  - `neighbors` (`KNeighborsClassifier`): Implements the k-nearest neighbors classification algorithm.
-  - `mixture` (`GaussianMixture`): Implements Gaussian Mixture Models for clustering.
-  - `preprocessing` (`StandardScaler`): Provides tools for data preprocessing, such as standardization.
-  - `svm` (`SVC`): Implements Support Vector Machine (SVM) algorithms for classification.
-  - `metrics` (`confusion_matrix`): Includes evaluation metrics like confusion matrix.
-- **seaborn** (`seaborn`): Enhances the visualization of statistical data using Matplotlib.
-- **tkinter** (`tkinter`): Provides GUI functionality for Python applications.
-  - `filedialog`: Allows opening file dialogs to interact with files and directories.
-  - `ttk`: Provides themed widgets for GUI development.
-- **matplotlib.backends.backend_tkagg** (`FigureCanvasTkAgg`): Enables embedding Matplotlib figures into Tkinter applications.
+## 🛠️ Installation
 
-
-## Features ✨
-* Supports various cross-validation methods including K-Nearest Neighbours, Gaussian Mixture Model,Support Vector Classification.
-* Graphical User Interface (GUI) for interactive model evaluation and comparison.
-* Choose from three different datasets directly through the GUI for seamless validation. (Iris, Wine, Breast)
-* Visualize model performance metrics for each fold or iteration.
-
-## Setup 🛠️
-To run this project locally, follow these steps:
-
-1. Install tkinter using pip:
+1. Clone the repository:
 ```bash
-$ pip install tkinter
+git clone https://github.com/yourusername/ml-classifier-app.git
+cd ml-classifier-app
 ```
-2. Install Numpy:
+
+2. Create a virtual environment (optional but recommended):
 ```bash
-$ pip install numpy
+python -m venv venv
+source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ```
-3. Install Pandas:
+
+3. Install the required packages:
 ```bash
-$ pip install pandas
+pip install -r requirements.txt
 ```
-4. Install scikit:
+
+## 🚀 Usage
+
+1. Run the Streamlit application:
 ```bash
-$ pip install scikit-learn
+streamlit run app.py
 ```
-5. Install matplitlib:
-```bash
-$ pip install matplotlib
-```
-## Usage ▶️
-Once the project is set up, you can run the main script to start the Cross-Validation GUI application. Use the interface to load your dataset, choose machine learning models, and select cross-validation settings. The GUI will guide you through the process of training and evaluating your models.😊
 
-## Demo 🎬
-<div align="center">
+2. Open your web browser and navigate to the URL shown in the terminal (typically http://localhost:8501)
 
-   ![assets/GUI output.png](https://github.com/kashifmehdi/Cross-Validation-With-GUI/blob/94d62059c3e99ea9a248204816de733e690e36c1/assets/GUI%20Output.png)
-   <p>Screenshot of Main Window </p>
-  
-</div>
+3. Use the sidebar to:
+   - Select a dataset
+   - Choose a classifier
+   - Run classification
+   - Plot BIC scores
 
+## 💡 Key Improvements from Original Version
 
-## Contributing 🤝
-Contributions are welcome! If you'd like to contribute to this project, please open an issue or submit a pull request on GitHub.
+1. **Modern Web Interface**: Replaced Tkinter with Streamlit for a more modern and responsive UI
+2. **Enhanced Visualization**: Added interactive Plotly charts instead of static Matplotlib plots
+3. **Code Organization**: Implemented proper class structure and type hints
+4. **Error Handling**: Added robust error handling and user feedback
+5. **Performance Metrics**: Added detailed classification reports and cross-validation scores
+6. **Code Quality**: Improved code documentation and formatting
+7. **Modularity**: Better separation of concerns and more maintainable code structure
 
-## Contact Information 
-For questions, feedback, or collaboration opportunities, feel free to contact the project maintainer at [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your-email@example.com) or [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile/).
+## 📊 Supported Datasets
+
+1. **Iris Dataset**
+   - 4 features
+   - 3 classes
+   - 150 samples
+
+2. **Wine Dataset**
+   - 13 features
+   - 3 classes
+   - 178 samples
+
+3. **Breast Cancer Dataset**
+   - 30 features
+   - 2 classes
+   - 569 samples
+
+## 🔍 Classifier Details
+
+1. **K-Nearest Neighbors**
+   - Non-parametric, instance-based learning
+   - Suitable for small to medium-sized datasets
+   - Works well with normalized features
+
+2. **Gaussian Mixture Model**
+   - Probabilistic model
+   - Uses EM algorithm for fitting
+   - Good for finding hidden patterns in data
+
+3. **Support Vector Classification**
+   - Maximum margin classifier
+   - Effective in high-dimensional spaces
+   - Versatile through kernel functions
+
+## 📈 Performance Metrics
+
+The application provides several metrics to evaluate classifier performance:
+
+- Cross-validation scores
+- Test accuracy
+- Detailed classification report
+  - Precision
+  - Recall
+  - F1-score
+- Confusion matrix visualization
+- BIC scores for model selection
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 🙏 Acknowledgments
+
+- Original codebase by [Original Author]
+- Enhanced and modernized with Streamlit integration
+- Built using scikit-learn and other open-source libraries
+
+## 📞 Contact
+
+For questions and feedback, please open an issue in the GitHub repository.
+
+---
+
+Built with ❤️ using Python and Streamlit
