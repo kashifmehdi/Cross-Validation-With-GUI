@@ -4,11 +4,11 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)](https://www.python.org/)
 [![tkinter](https://img.shields.io/badge/tkinter-Latest-blue?style=flat&logo=tkinter)](https://tkinter.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-Latest-blueviolet?style=flat&logo=numpy)](https://numpy.org/)
-[![pandas](https://img.shields.io/badge/pandas-1.3.1-orange)](https://pandas.pydata.org/)
-[![seaborn](https://img.shields.io/badge/seaborn-0.11.2-blue)](https://seaborn.pydata.org/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.4.3-brightgreen)](https://matplotlib.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24.2-red)](https://scikit-learn.org/)
-[![tkinter](https://img.shields.io/badge/tkinter-8.6-yellow)](https://docs.python.org/3/library/tkinter.html)
+[![pandas](https://img.shields.io/badge/pandas-Latest-orange)](https://pandas.pydata.org/)
+[![seaborn](https://img.shields.io/badge/seaborn-Latest-blue)](https://seaborn.pydata.org/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-Latest-brightgreen)](https://matplotlib.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-Latest-red)](https://scikit-learn.org/)
+[![tkinter](https://img.shields.io/badge/tkinter-Latest-yellow)](https://docs.python.org/3/library/tkinter.html)
 
 
 </div>
